@@ -16,6 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        println("Hello, world!");
+        
+        var variable = 10;
+        //println(variable);
+        variable = 20;
+        //println(variable);
+        var notDoubleThing = 70;
+        //println(notDoubleThing);
+        
+        var doubleThing : Double = 70;
+        //println(doubleThing);
+        
+        let apples = 3;
+        let appleSummary = "I have \(apples) apples.";
+        println(appleSummary);
+        
+        var listOfAwesome = ["", "", "", ""];
+        listOfAwesome[0] = "hi";
+        listOfAwesome[1] = "lol";
+        
+        println(listOfAwesome[0]);
+        
         return true
     }
 
